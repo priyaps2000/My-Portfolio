@@ -1,0 +1,4 @@
+.desktop-nav :nth-child(5) {
+    border-bottom: 3px solid var(--hover-color);
+    color: var(--hover-color);
+}

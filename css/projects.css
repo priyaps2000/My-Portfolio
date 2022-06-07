@@ -1,0 +1,22 @@
+.desktop-nav :nth-child(3) {
+    border-bottom: 3px solid var(--hover-color);
+    color: var(--hover-color);
+}
+
+.intro {
+    margin-top: 100px;
+}
+
+.project {
+    display: flex;
+    
+}
+
+.csi-img {
+    height: 300px;
+    width: 300px;
+}
+
+.intro {
+    font-size: x-large;
+}
