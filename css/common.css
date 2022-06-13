@@ -9,6 +9,7 @@ body{
     background-color: var(--background-color);
     margin-right: 40px;
     margin-left: 40px;
+    margin-top: 0px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -26,7 +27,11 @@ h1{
     
 }
 
-nav{
+.mobile-nav {
+    display: none;
+}
+
+.desktop-nav{
     display: flex;
     justify-content: end;
     padding-left: 500px;
@@ -38,7 +43,7 @@ nav{
     width: 100%;
 }
 
-nav a{
+.desktop-nav a{
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
@@ -50,7 +55,7 @@ nav a:hover{
     font-size: larger;
 }
 
-nav>* {
+.dektop-nav>* {
     line-height: 22px;
     vertical-align: middle;
 }
@@ -62,4 +67,46 @@ footer{
 
 footer a {
     color:var(--hover-color);
+}
+
+@media screen and (max-width: 600px) {
+    .desktop-nav {
+        display: none;
+    }
+
+    .menu-option{
+        display: none;
+    }
+
+    .mobile-nav {
+        display: grid;
+        font-size: 60px;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        padding-top: 40px;
+        background-color: white;
+        z-index: 1;
+    }
+
+    
+
+    .clicked-menu-button {
+        display: grid;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding-left: 40px;
+        z-index: 1;
+        background-color: #ffffff;
+        opacity: 0.95;
+        font-size: 60px;
+    }
+
+    .clicked-menu-button .menu-option {
+        display: grid;
+    }
+
 }
