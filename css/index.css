@@ -16,17 +16,6 @@
     font-size: 5em;
 }
 
-span {
-    animation: animate 2s infinite;
-}
-
-@keyframes animate {
-    0% {transform: translateY(30px);
-    color:var(--links-color);}
-    50% {transform: translateY(0px);}
-    100% {transform: translateY(-30px);}
-}
-
 .short-about-me {
     font-size: x-large;
 }
@@ -40,13 +29,8 @@ span {
     background: url(/../images/profilepic.JPG);
     background-size: 500px;
     opacity: 50%;
-    animation: opacity-change 5s;
-}
-
-@keyframes opacity-change{
-    0% {opacity: 0.2;}
-    30% {opacity: 1;}
-    100% {opacity: 0.5;}
+    border-radius: 500px;
+    box-shadow: 0 0 50px 50px black inset;
 }
 
 .profile-img::before {
