@@ -13,11 +13,11 @@
 .welcome-text {
     text-align: center;
     font-weight: 900;
-    font-size: 5em;
+    font-size: 80px;
 }
 
 .short-about-me {
-    font-size: x-large;
+    font-size: 23px;
 }
 
 .profile-img {
@@ -44,31 +44,9 @@
     background-position: top;
 }
 
-.contact i {
-    color: var(--links-color);
-    padding: 10px;
-    font-size: 2.5em; 
-    line-height: 30px;
-    vertical-align: middle;
-    
-}
-
-.ri-heart-fill {
-    font-size: small;
-}
-
-.contact {
-    margin-top: 100px;
-    text-align: center;
-}
 
 
 
-.contact i:hover {
-    font-size: larger;
-    color: var(--hover-color);
-    font-size: 3em; 
-}
 
 .desktop-nav :nth-child(1) {
     border-bottom: 3px solid var(--hover-color);
@@ -77,6 +55,15 @@
 
 @media screen and (max-width: 600px) {
     .profile-img {
-
+        position: relative; 
+        width: 300px;
+        height: 300px;
+        background-size: 300px;
+    }
+    
+    .profile-img::before {
+        height: 300px;
+        background-size: 600px;
+        background-position: top;
     }
 }

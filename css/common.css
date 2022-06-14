@@ -20,10 +20,12 @@ a{
 
 p{
     color: var(--links-color);
+    font-size: 20px;
 }
 
 h1{
     color: var(--text-color);
+    font-size: 60px;
     
 }
 
@@ -41,6 +43,7 @@ h1{
     right:0;
     background-color: #ffffff;
     width: 100%;
+    font-size: 20px;
 }
 
 .desktop-nav a{
@@ -50,7 +53,7 @@ h1{
     padding-right: 30px;
 }
 
-nav a:hover{
+.desktop-nav a:hover{
     color: var(--hover-color);
     font-size: larger;
 }
@@ -60,14 +63,44 @@ nav a:hover{
     vertical-align: middle;
 }
 
-footer{
-    text-align: center;
+.contact p{
+    
+    font-size: 14px;
+}
+
+.ri-heart-fill {
     font-size: small;
+}
+
+.contact i {
+    color: var(--links-color);
+    padding: 10px;
+    font-size: 2.5em; 
+    line-height: 30px;
+    vertical-align: middle;
+    
+}
+
+.contact {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.contact i:hover {
+    font-size: larger;
+    color: var(--hover-color);
+    font-size: 3em; 
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px
 }
 
 footer a {
     color:var(--hover-color);
 }
+
 
 @media screen and (max-width: 600px) {
     .desktop-nav {
@@ -76,37 +109,52 @@ footer a {
 
     .menu-option{
         display: none;
+        padding-left: 40px;
     }
 
     .mobile-nav {
         display: grid;
-        font-size: 60px;
+        font-size: 30px;
         width: 100%;
         position: fixed;
         top: 0px;
+        left:0px;
         padding-top: 40px;
         background-color: white;
         z-index: 1;
+    }
+
+    .menu-button {
+        margin-left: 40px;
+        font-size: 30px;
     }
 
     
 
     .clicked-menu-button {
         display: grid;
-        height: 100%;
+        height: 100vh;
         width: 100%;
         position: fixed;
         top: 0;
         left: 0;
-        padding-left: 40px;
         z-index: 1;
         background-color: #ffffff;
         opacity: 0.95;
-        font-size: 60px;
+        font-size: 45px;
     }
 
     .clicked-menu-button .menu-option {
         display: grid;
+    }
+
+    .mobile-nav a:hover{
+        color: var(--hover-color);
+    }
+
+    .body {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
 }

@@ -2,3 +2,72 @@
     border-bottom: 3px solid var(--hover-color);
     color: var(--hover-color);
 }
+
+.about-title {
+    margin-top: 125px;
+}
+
+.about {
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.tech, .non-tech {
+    display: flex;
+}
+
+.tech a{
+    color: var(--text-color);
+    font-weight: 600;
+
+}
+
+.art {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 75px
+}
+
+
+.container {
+    position: relative;
+    display: inline;
+    margin: auto;
+}
+
+.artwork-type {
+    position: absolute;
+    background-color: var(--text-color);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.artwork-type:hover{
+    transform: scale(0.99);
+    opacity: 0.7;
+}
+
+.artwork-type p{
+    font-size: 30px;
+    font-weight: bolder;
+    color: whitesmoke;
+    position: absolute;
+    top: 120px;
+    left: 80px;
+}
+
+
+.artwork {
+    border: 21px solid #8080801c;
+    margin: auto;
+}
+
+
+
+
+
