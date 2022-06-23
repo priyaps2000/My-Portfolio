@@ -4,7 +4,7 @@ function load_navbar_and_footer() {
                         '<a href="index.html">HOME</a>'+
                         '<a href="about.html">ABOUT</a>'+
                         '<a href="projects.html">PROJECTS</a>'+
-                        '<a>RESUME</a>'+
+                        '<a href="https://drive.google.com/file/d/1U0eFAddA7eJazSXfVEOcDA0gMJrj3UTx/view?usp=sharing">RESUME</a>'+
                     '</nav>'
     const mobile_navbar = `<nav class="mobile-nav">
                                 <a href="#" class="menu-button"><i class="ri-menu-line"></i></a>
@@ -18,7 +18,7 @@ function load_navbar_and_footer() {
                         <a href="https://www.linkedin.com/in/priyapspps/"><i class="ri-linkedin-box-fill"></i> </a>
                         <a href="mailto:priya00020130@gmail.com"><i class="ri-mail-fill"></i></a>
                         <a href="https://www.instagram.com/_priya_p_s_/"><i class="ri-instagram-fill"></i></a>
-                        <a href="https://twitter.com/PriyaPS66970144"><i class="ri-twitter-fill"></i></a>
+                        <a href="https://twitter.com/PriyaPS_"><i class="ri-twitter-fill"></i></a>
                     </div>`+
                     '<footer>'+
                         '<p>Designed and Built with <i class="ri-heart-fill"></i> by <a href="#" class="pps">~pps</a></p>'+

@@ -4,19 +4,40 @@
 }
 
 .intro {
-    margin-top: 100px;
+    margin-top: 125px;
+    font-size: 20px;
 }
 
 .project {
     display: flex;
+    background-color: var(--border-color);
+    margin-bottom: 20px;
     
 }
-
-.csi-img {
-    height: 300px;
-    width: 300px;
+img {
+    height: auto;
+    width: 50%;
+    max-height: 400px;
 }
 
-.intro {
-    font-size: x-large;
+.description {
+    margin-left: 10px
+}
+
+h2 {
+    color: var(--text-color);
+    font-size: 22px;
+}
+
+@media screen and (max-width: 600px) {
+    .project{
+        flex-wrap: wrap;
+    }
+    img {
+        width: 100%;
+        
+    }
+    .description {
+        width: 100%;
+    }
 }

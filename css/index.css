@@ -66,4 +66,8 @@
         background-size: 600px;
         background-position: top;
     }
+
+    .welcome-text {
+        font-size: 47px;
+    }
 }

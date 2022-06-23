@@ -63,7 +63,7 @@
 
 
 .artwork {
-    border: 21px solid #8080801c;
+    border: 21px solid var(--border-color);
     margin: auto;
 }
 
