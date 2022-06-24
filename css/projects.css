@@ -5,19 +5,41 @@
 
 .intro {
     margin-top: 125px;
+    margin-bottom: 30px;
     font-size: 20px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects {
+    max-width: 1100px;
+    margin: auto;
 }
 
 .project {
     display: flex;
-    background-color: var(--border-color);
-    margin-bottom: 20px;
-    
+    box-shadow: -5px 5px 15px var(--border-color);
+    margin-bottom: 50px;
+    transition-duration: 0.5s;
+
 }
+
+.project:hover{
+    transform: scale(1.01);
+}
+
+.project p {
+    font-size: 18px;
+}
+
+.project a {
+    color: var(--text-color);
+    font-weight: bold;
+}
+
 img {
-    height: auto;
     width: 50%;
-    max-height: 400px;
 }
 
 .description {
