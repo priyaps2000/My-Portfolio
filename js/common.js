@@ -21,7 +21,7 @@ function load_navbar_and_footer() {
                         <a href="https://twitter.com/PriyaPS_"><i class="ri-twitter-fill"></i></a>
                     </div>`+
                     '<footer>'+
-                        '<p>Designed and Built with <i class="ri-heart-fill"></i> by <a href="#" class="pps">~pps</a></p>'+
+                        '<p>Designed and Built with <i class="ri-heart-fill"></i> by <a href="index.html" class="pps">~pps</a></p>'+
                     '</footer>'
     body.innerHTML = desktop_navbar + mobile_navbar + body.innerHTML +footer_text;
 }

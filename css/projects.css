@@ -51,6 +51,11 @@ h2 {
     font-size: 22px;
 }
 
+.period{
+    font-size: 13px;
+    color: var(--links-color);
+}
+
 @media screen and (max-width: 600px) {
     .project{
         flex-wrap: wrap;
@@ -61,5 +66,9 @@ h2 {
     }
     .description {
         width: 100%;
+    }
+
+    .intro {
+        margin-top: 85px;
     }
 }

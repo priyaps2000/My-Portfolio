@@ -73,4 +73,8 @@
     .welcome-text {
         font-size: 47px;
     }
+
+    .main-ctr {
+        margin-top: 70px;
+    }
 }
