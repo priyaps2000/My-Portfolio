@@ -4,7 +4,7 @@ function load_navbar_and_footer() {
                         '<a href="index.html">HOME</a>'+
                         '<a href="about.html">ABOUT</a>'+
                         '<a href="projects.html">PROJECTS</a>'+
-                        '<a href="https://drive.google.com/file/d/11tXl51Jng7HpNjgPNzrWUcGG5gRMRbGG/view?usp=sharing">RESUME</a>'+
+                        '<a href="https://drive.google.com/file/d/1tIWCZKFzU_CYVsmZL3-2B2C2CHeEkQJy/view?usp=share_link">RESUME</a>'+
                     '</nav>'
     const mobile_navbar = `<nav class="mobile-nav">
                                 <a href="#" class="menu-button"><i class="ri-menu-line"></i></a>
