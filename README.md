@@ -5,5 +5,6 @@ Source code of the website can be found here.
 
 ### Tools and Technologies
 * HTML
-* CSS Javascript
+* CSS 
+* Javascript
 * Google Analytics
