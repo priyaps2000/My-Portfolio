@@ -11,7 +11,7 @@ function load_navbar_and_footer() {
                                 <a href="index.html" class="menu-option">HOME</a>
                                 <a href="about.html" class="menu-option">ABOUT</a>
                                 <a href="projects.html" class="menu-option">PROJECTS</a>
-                                <a href="https://drive.google.com/file/d/11tXl51Jng7HpNjgPNzrWUcGG5gRMRbGG/view?usp=sharing" class="menu-option">RESUME</a>
+                                <a href="https://drive.google.com/file/d/1tIWCZKFzU_CYVsmZL3-2B2C2CHeEkQJy/view?usp=share_link" class="menu-option">RESUME</a>
                             </nav>`
     footer_text = `<div class="contact">
                         <p>Get In Touch</p>
