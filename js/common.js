@@ -4,14 +4,14 @@ function load_navbar_and_footer() {
                         '<a href="index.html">HOME</a>'+
                         '<a href="about.html">ABOUT</a>'+
                         '<a href="projects.html">PROJECTS</a>'+
-                        '<a href="https://drive.google.com/file/d/1gjfi9Iv7_rfID2MN-pvogqLA1M6-fQ0F/view?usp=sharing">RESUME</a>'+
+                        '<a href="https://drive.google.com/file/d/1gIfHGc_gR9Lr4Jvq-0U188Wmq-JkeREb/view?usp=sharing">RESUME</a>'+
                     '</nav>'
     const mobile_navbar = `<nav class="mobile-nav">
                                 <a href="#" class="menu-button"><i class="ri-menu-line"></i></a>
                                 <a href="index.html" class="menu-option">HOME</a>
                                 <a href="about.html" class="menu-option">ABOUT</a>
                                 <a href="projects.html" class="menu-option">PROJECTS</a>
-                                <a href="https://drive.google.com/file/d/1gjfi9Iv7_rfID2MN-pvogqLA1M6-fQ0F/view?usp=sharing" class="menu-option">RESUME</a>
+                                <a href="https://drive.google.com/file/d/1gIfHGc_gR9Lr4Jvq-0U188Wmq-JkeREb/view?usp=sharing" class="menu-option">RESUME</a>
                             </nav>`
     footer_text = `<div class="contact">
                         <p>Get In Touch</p>
